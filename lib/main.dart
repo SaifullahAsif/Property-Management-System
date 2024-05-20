@@ -16,11 +16,12 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "AIzaSyBWnFsxN7fUjxvWTCdjI6fQd_MWhld0lEs",
-        appId: "1:74172720956:web:dee9363c0132679a16e039",
-        messagingSenderId: "74172720956",
-        projectId: "olxclon-fac7d",
-        storageBucket: "olxclon-fac7d.appspot.com",
+        apiKey: "AIzaSyAFkp3oDymhKNR3FpdagYABxu3LCQtfg6E",
+        authDomain: "property--system-9799.firebaseapp.com",
+        projectId: "property--system-9799",
+        storageBucket: "property--system-9799.appspot.com",
+        messagingSenderId: "210159783832",
+        appId: "1:210159783832:web:41924beee97d8bdd2a65ed"
       ),
     );
   } else {
@@ -29,9 +30,14 @@ void main() async {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
 
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     //Set the fit size (Find your UI design, look at the dimensions of the device screen and fill it in,unit in dp)

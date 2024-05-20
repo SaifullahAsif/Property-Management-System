@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "74172720956",
-    "project_id": "olxclon-fac7d",
-    "storage_bucket": "olxclon-fac7d.appspot.com"
+    "project_number": "210159783832",
+    "project_id": "property--system-9799",
+    "storage_bucket": "property--system-9799.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:74172720956:android:ccd7d218297793ae16e039",
+        "mobilesdk_app_id": "1:210159783832:android:5082ad536e370a422a65ed",
         "android_client_info": {
           "package_name": "com.example.houses_olx"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "74172720956-9otrtkaspgk33caunvg8m2a3ovkkdn05.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBycX6cYFmxk8e2WJh8KZOAgY3mziqVgZU"
+          "current_key": "AIzaSyDPMAol32uI_75DbO8thNio4dYGotVhCt4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "74172720956-9otrtkaspgk33caunvg8m2a3ovkkdn05.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
